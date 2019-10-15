@@ -90,7 +90,6 @@ public class Main {
                 "6. Добавить сотрудника\n" +
                 "7) Просмотреть текущих сотрудников\n" +
                 "8) Сортировать клиентов по имени \n");
-                /*"9) Уволить врача с данной проф. квалификацией\n");*/
 
         while (command != 0)
         {
@@ -252,12 +251,6 @@ public class Main {
                         AddClientsFile(PATH_TO_CLIENT_FILE, clients.get(i),true);
                     }
                     break;
-                /*case (9):
-                    System.out.println(INPUT_QUALIFICATION);
-                    speciality = scanner.nextLine();
-
-                    stuff.removeDoctor(speciality);
-                    break;*/
                 default:
                     System.out.println("Неверная команда");
             }
